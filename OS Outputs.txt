@@ -1,0 +1,235 @@
+Ass2a MergeSort | Quicksort
+
+Enter The Size of array : 
+5
+Enter The No : 1 
+99
+Enter The No : 2 
+98
+Enter The No : 3 
+97
+Enter The No : 4 
+96
+Enter The No : 5 
+95
+
+Ass2b Bublesort 
+
+gcc exep.c -o exep
+student@student-HP-Pro-3330-MT:~/TEIT-33/Ass2$ gcc exec.c -o exec
+student@student-HP-Pro-3330-MT:~/TEIT-33/Ass2$ ./exep ./exec
+
+Enter the size for the array  : 5
+	
+Enter element No 1: 99
+Enter element No 2: 98
+Enter element No 3: 97
+Enter element No 4: 96
+Enter element No 5: 95
+
+Entered Elements are
+
+Element No 1 is 99: 
+Element No 2 is 98: 
+Element No 3 is 97: 
+Element No 4 is 96: 
+Element No 5 is 95: 
+
+Sorted Elements are
+
+Element No 1 is 95: 
+Element No 2 is 96: 
+Element No 3 is 97: 
+Element No 4 is 98: 
+Element No 5 is 99: 
+
+forking a child Process ...forking a child Process ...
+Argc count in Par : 2  
+
+Inside the child Process ...
+
+Elements Reversed in the given array are
+
+Element No 1 is 99: 
+Element No 2 is 98: 
+Element No 3 is 97: 
+Element No 4 is 96: 
+Element No 5 is 95: 
+
+Argc count in Chi : 6  
+
+
+Assignmnet 3 | Round Robin
+
+Enter Number Of Processes : 5
+Enter arrival time and Burst time for Process P0 : 0
+8
+Enter arrival time and Burst time for Process P1 : 1
+5
+Enter arrival time and Burst time for Process P2 : 3
+3
+Enter arrival time and Burst time for Process P3 : 4
+1
+Enter arrival time and Burst time for Process P4 : 6
+4
+Enter Time Slice OR Quantum Number : 2
+
+
+Assignmnet 3 | SRTF
+
+
+SRTF (Shortest Remaining Time First) 
+Enter Number of Processes
+5
+Enter Arrival Time & Burst Time for Process [P0]
+0
+9
+Enter Arrival Time & Burst Time for Process [P1]
+1
+1
+Enter Arrival Time & Burst Time for Process [P2]
+2
+7
+Enter Arrival Time & Burst Time for Process [P3]
+3
+1
+Enter Arrival Time & Burst Time for Process [P4]
+4
+
+
+Assignment 4 | Producer and Consumer, automatic output:
+
+Producer 1 has produced item number 1 (|)
+Consumer 2 has produced item number 1 (X)
+Producer 2 has produced item number 2 (|)
+Consumer 4 has produced item number 2 (X)
+Producer 3 has produced item number 3 (|)
+Consumer 3 has produced item number 3 (X)
+Producer 1 has produced item number 4 (|)
+Consumer 1 has produced item number 4 (X)
+Producer 2 has produced item number 5 (|)
+
+Assignment 4 | Reader and Writer, automatic output:
+
+1 Reader is trying to enter...
+Reader is reading...,
+1 Reader is leaving...
+3 Reader is trying to enter...
+Reader is reading...,
+3 Reader is leaving...
+2 Reader is trying to enter...
+Reader is reading...,
+2 Reader is leaving...
+
+
+Assignment 5 | Bankers Algorithm
+
+Enter No Processes
+5
+Enter No Resources
+3
+Enter resources Allocated to P[0]
+
+0
+1
+
+0
+Enter resources Allocated to P[1]
+2
+0
+0
+Enter resources Allocated to P[2]
+3
+0
+2
+Enter resources Allocated to P[3]
+2
+1
+1
+Enter resources Allocated to P[4]
+0
+0
+2
+Enter Maximum to P[0]
+7
+5
+3
+Enter Maximum to P[1]
+3
+2
+2
+Enter Maximum to P[2]
+9 
+0
+2
+Enter Maximum to P[3]
+2
+2
+2
+Enter Maximum to P[4]
+4
+3
+3
+Enter Available resources
+3
+3
+2
+Following is the SAFE Sequence
+ P1 -> P3 -> P4 -> P0 -> P2
+
+
+Assignment 6: 
+
+ ENTER THE NUMBER OF PAGES:
+5
+
+ ENTER THE PAGE NUMBER :
+6
+7
+8
+5
+4
+
+ ENTER THE NUMBER OF FRAMES :3
+
+ ref string      page frames            Hit/Fault
+6               6       -1      -1      F
+7               6       7       -1      F
+8               6       7       8       F
+5               5       7       8       F
+4               5       4       8       F
+Page Fault Is 5
+
+
+Assignment 8: SSTF 
+
+Enter the number of Requests
+9
+Enter the Requests sequence
+27
+129
+110
+186
+147
+41
+10
+64
+120
+Enter initial head position
+100
+Total head movement is 169 (or any value)
+
+Assignment 8: SCAN
+
+enter number of location  9
+enter position of head  1
+enter elements of disk queue
+27 41 64 110 120 129 147 196
+200
+1 -->0 -->27-->41-->64-->110-->120-->129-->147-->196-->200-->
+movement of total cylinders 1666077758
+
+
+
+
+
